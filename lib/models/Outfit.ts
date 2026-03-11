@@ -4,7 +4,7 @@
 import mongoose, { Schema, Document, Model } from 'mongoose';
 
 export interface IOutfit extends Document {
-  _id: string;
+  //_id: string;
   name: string;
   designer: string;
   price: number;

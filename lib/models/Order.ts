@@ -12,7 +12,7 @@ export interface IOrderItem {
 }
 
 export interface IOrder extends Document {
-  _id: string;
+  //_id: string;
   customerName: string;
   customerEmail: string;
   customerPhone: string;
