@@ -102,9 +102,9 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
 
             <div className="flex items-baseline gap-3 mb-8">
               <span className="font-display text-3xl">{formatPrice(outfit.price as number)}</span>
-              {outfit.originalPrice && (
+              {outfit.originalPrice ?(
                 <span className="font-body text-sm text-slate line-through">{formatPrice(outfit.originalPrice as number)}</span>
-              )}
+              ):null}
             </div>
 
             <p className="font-body text-sm leading-relaxed text-charcoal mb-8 border-l-2 border-champagne pl-4">
