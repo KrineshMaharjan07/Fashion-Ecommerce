@@ -4,7 +4,7 @@
 import mongoose, { Schema, Document, Model } from 'mongoose';
 
 export interface IAppointment extends Document {
-  _id: string;
+  //_id: string;
   customerName: string;
   customerEmail: string;
   customerPhone: string;
